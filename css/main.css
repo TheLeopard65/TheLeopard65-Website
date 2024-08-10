@@ -1,9 +1,8 @@
 body, html {
   height: 100%;
-  padding:0;
+  padding: 0;
   margin: 0;
   font-family: Comic Sans MS, cursive;
-  display: flex;
   color: #012247;
 }
 .container {
@@ -12,6 +11,7 @@ body, html {
   padding: 20px;
   border-radius: 10px;
   max-width: 500px;
+  margin-top: 80px;
 }
 h1 {
   font-size: 3em;
@@ -33,7 +33,7 @@ h1 {
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
 }
-.navbar-logo img {
+.navbar-logo logo {
   height: 40px;
   width: auto;
 }
@@ -46,14 +46,18 @@ h1 {
   color: #F5FFFA;
   font-size: 1rem;
   padding: 0.25rem 0.35rem;
+  text-decoration: none;
 }
 .navbar-link:hover {
   background-color: #4682B4;
   border-radius: 0.25rem;
 }
 .footer {
-    background-color: #191970;
-    color: #F5FFFA;
-    text-align: center;
-    padding: 0.5rem;
+  background-color: #191970;
+  color: #F5FFFA;
+  text-align: center;
+  padding: 0.5rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
