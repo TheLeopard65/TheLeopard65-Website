@@ -22,13 +22,13 @@ h1 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 78%;
-  height: 60px;
+  width: 44%;
+  height: 30px;
   margin: 0;
   font-family: Comic Sans MS, cursive;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding: 0.2rem;
   background-color: #191970;
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
