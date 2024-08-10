@@ -4,12 +4,12 @@ body, html {
             font-family: Comic Sans MS, cursive;
             background-color: #012247;
             overflow: hidden;
-        }
-        h1 {
+}
+h1 {
             font-size: 3em;
             margin: 0;
-        }
-        .navbar {
+}
+.navbar {
             position: fixed;
             top: 0;
             left: 50%;
@@ -26,31 +26,31 @@ body, html {
             border-radius: 20px;
             box-shadow: 0 0 0 5px #663399;
             z-index: 1000;
-        }
-        .navbar-logo img {
+}
+.navbar-logo img {
             height: 40px;
             width: auto;
-        }
-        .navbar-logo-Main {
+}
+.navbar-logo-Main {
             height: 150px;
             width: auto;
-        }
-        .navbar-links {
+}
+.navbar-links {
             display: flex;
             gap: 0.75rem;
             align-items: center;
-        }
-        .navbar-link {
+}
+.navbar-link {
             color: #F5FFFA;
             font-size: 1rem;
             padding: 0.25rem 0.35rem;
             text-decoration: none;
-        }
-        .navbar-link:hover {
+}
+.navbar-link:hover {
             background-color: #4682B4;
             border-radius: 0.25rem;
-        }
-        .container {
+}
+.working {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -61,17 +61,17 @@ body, html {
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px #0000001a;
-        }
-        .container h1 {
+}
+.working h1 {
             color: #ff6f61;
             font-size: 3em;
             margin-bottom: 0.5em;
-        }
-        .container p {
+}
+.working p {
             color: #333;
             font-size: 1.2em;
-        }
-        .footer {
+}
+.footer {
             background-color: #191970;
             color: #F5FFFA;
             text-align: center;
@@ -79,4 +79,4 @@ body, html {
             position: fixed;
             bottom: 0;
             width: 100%;
-        }
+}
