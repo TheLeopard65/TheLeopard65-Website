@@ -24,7 +24,7 @@ h1 {
   transform: translateX(-50%);
   width: 50%;
   height: 30px;
-  margin: 0;
+  margin: 10px 0 0 0;
   font-family: Comic Sans MS, cursive;
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,7 @@ h1 {
   background-color: #191970;
   border-bottom: 1px solid #e5e7eb;
   border-radius: 20px;
+  box-shadow: 0 0 0 5px #663399;
   z-index: 1000;
 }
 .navbar-logo img {
