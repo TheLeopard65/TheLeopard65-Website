@@ -56,7 +56,7 @@ body, html {
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #191970;
             text-align: center;
             padding: 20px;
             border-radius: 8px;
@@ -66,12 +66,10 @@ body, html {
             color: #ff6f61;
             font-size: 3em;
             margin-bottom: 0.5em;
-            background-color: #191970;
         }
         .container p {
             color: #333;
             font-size: 1.2em;
-            background-color: #191970;
         }
         .footer {
             background-color: #191970;
