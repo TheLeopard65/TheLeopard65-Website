@@ -15,13 +15,13 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     height: 30px;
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
     font-family: Comic Sans MS, cursive;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.2rem;
-    background-color: MidnightBlue;
+    background-color: Black;
     border-radius: 20px;
     box-shadow: 0 0 0 5px DarkBlue;
     z-index: 1000;
@@ -30,8 +30,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 0 5px;
     border-radius: 50%;
     border: 5px solid Gold;
@@ -56,6 +56,7 @@ h1 {
     height: 100%;
     display: flex;
     align-items: center;
+    transition: background-color 0.3s ease;
 }
 .navbar-link:hover {
     background-color: Gold;
