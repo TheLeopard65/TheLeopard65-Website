@@ -13,9 +13,8 @@ h1 {
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-48%);
     height: 35px;
-    min-width: 1000px;
     margin: 20px 0 0 0;
     font-family: Comic Sans MS, cursive;
     display: flex;
