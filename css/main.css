@@ -60,7 +60,7 @@ h1 {
 }
 .navbar-link:hover {
     background-color: Gold;
-    color: Black;
+    color: Red;
     border-radius: 20px;
 }
 .working {
