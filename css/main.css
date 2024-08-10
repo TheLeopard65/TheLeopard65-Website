@@ -58,7 +58,7 @@ h1 {
 }
 .navbar-link:hover {
     background-color: Gold;
-    border-radius: 0.25rem;
+    border-radius: 20px;
 }
 .working {
     display: flex;
