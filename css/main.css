@@ -45,13 +45,13 @@ h1 {
 .navbar-links {
     display: flex;
     align-items: center;
-    margin: 0 15px;
     flex: 1;
 }
 .navbar-link {
     color: #F5FFFA;
     font-size: 1rem;
     padding: 0.25rem 0.35rem;
+    margin: 0 10px;
     text-decoration: none;
     height: 100%;
     display: flex;
