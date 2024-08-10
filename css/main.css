@@ -22,7 +22,7 @@ h1 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 44%;
+  width: 50%;
   height: 30px;
   margin: 0;
   font-family: Comic Sans MS, cursive;
@@ -31,6 +31,7 @@ h1 {
   padding: 0.2rem;
   background-color: #191970;
   border-bottom: 1px solid #e5e7eb;
+  border-radius: 20px;
   z-index: 1000;
 }
 .navbar-logo logo {
@@ -56,7 +57,7 @@ h1 {
   background-color: #191970;
   color: #F5FFFA;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.25rem;
   position: fixed;
   bottom: 0;
   width: 100%;
