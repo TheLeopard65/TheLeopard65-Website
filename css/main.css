@@ -4,6 +4,12 @@ body, html {
   margin: 0;
   font-family: Comic Sans MS, cursive;
   color: #012247;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .container {
   text-align: center;
