@@ -19,6 +19,7 @@ h1 {
     font-family: Comic Sans MS, cursive;
     display: flex;
     justify-content: center;
+    align-item: center;
     padding: 0.2rem;
     background-color: MidnightBlue;
     border-radius: 20px;
@@ -26,24 +27,24 @@ h1 {
     z-index: 1000;
 }
 .navbar-logo img {
-    height: 40px;
+    height: 100px;
     width: auto;
-}
-
-.navbar-logo-Main {
-    height: 150px;
-    width: auto;
+    margin-right: 1rem;
 }
 .navbar-links {
     display: flex;
     align-items: center;
     margin: 0;
+    flex: 1;
 }
 .navbar-link {
     color: #F5FFFA;
     font-size: 1rem;
     padding: 0.25rem 0.35rem;
     text-decoration: none;
+    height: 100%; /* Make link height same as navbar height */
+    display: flex; /* Use flex to align content */
+    align-items: center; /* Center text vertically */
 }
 .navbar-link:hover {
     background-color: Gold;
