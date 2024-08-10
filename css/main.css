@@ -39,6 +39,10 @@ h1 {
   height: 40px;
   width: auto;
 }
+.navbar-logo-Main {
+  height: 75px;
+  width: auto;
+}
 .navbar-links {
   display: flex;
   gap: 0.75rem;
