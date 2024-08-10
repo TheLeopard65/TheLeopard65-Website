@@ -8,13 +8,14 @@
   background-color: #191970;
   border-bottom: 1px solid #e5e7eb;
 }
-.navbar-logo {
-  font-size: 1.25rem;
-  font-weight: bold;
+.navbar-logo img{
+  height: 40px;
+  width: auto;
 }
 .navbar-links {
   display: flex;
   gap: 0.75rem;
+  align-items: center;
 }
 .navbar-link {
   color: #F5FFFA;
