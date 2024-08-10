@@ -13,8 +13,8 @@ h1 {
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translateX(-47%);
-    height: 40px;
+    transform: translateX(-50%);
+    height: 30px;
     margin: 10px 0 0 0;
     font-family: Comic Sans MS, cursive;
     display: flex;
@@ -29,7 +29,6 @@ h1 {
 .navbar-logo img {
     height: 100px;
     width: auto;
-    margin-right: 1rem;
 }
 .navbar-links {
     display: flex;
@@ -42,9 +41,9 @@ h1 {
     font-size: 1rem;
     padding: 0.25rem 0.35rem;
     text-decoration: none;
-    height: 100%; /* Make link height same as navbar height */
-    display: flex; /* Use flex to align content */
-    align-items: center; /* Center text vertically */
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .navbar-link:hover {
     background-color: Gold;
