@@ -1,8 +1,9 @@
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
   height: 60px;
   margin: 0;
   font-family: Comic Sans MS, cursive;
@@ -21,7 +22,6 @@
   display: flex;
   gap: 0.75rem;
   align-items: center;
-  text-decoration: none;
 }
 .navbar-link {
   color: #F5FFFA;
