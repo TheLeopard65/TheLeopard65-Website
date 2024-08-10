@@ -45,7 +45,7 @@ h1 {
 .navbar-links {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 8px;
     flex: 1;
 }
 .navbar-link {
