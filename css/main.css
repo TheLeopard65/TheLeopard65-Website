@@ -22,7 +22,7 @@ h1 {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: auto;
+  width: 78%;
   height: 60px;
   margin: 0;
   font-family: Comic Sans MS, cursive;
@@ -57,7 +57,7 @@ h1 {
   color: #F5FFFA;
   text-align: center;
   padding: 0.5rem;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
