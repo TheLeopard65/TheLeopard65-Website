@@ -64,6 +64,29 @@ h1 {
     color: Red;
     border-radius: 20px;
 }
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: MidnightBlue;
+    border-radius: 30px;
+}
+.intro-text {
+    flex: 1;
+    padding-right: 20px;
+}
+.intro-picture {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.intro-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 .working {
     display: flex;
     flex-direction: column;
