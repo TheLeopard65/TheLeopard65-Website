@@ -3,7 +3,13 @@ body, html {
     margin: 0;
     font-family: Comic Sans MS, cursive;
     background-color: MidnightBlue;
-    overflow: hidden;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 h1 {
     font-size: 3em;
