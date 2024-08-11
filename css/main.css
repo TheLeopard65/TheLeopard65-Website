@@ -76,7 +76,7 @@ h1 {
 .navbar-link {
     color: #F5FFFA;
     font-size: 18px;
-    padding: 0.25rem 0.90rem;
+    padding: 0.25rem 0.85rem;
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -92,7 +92,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 60px 20px;
     margin: 0 auto;
     border-radius: 20px;
     height: 250px;
@@ -117,22 +117,28 @@ h1 {
     border-radius: 50%;
 }
 .working {
-	margin: auto auto;
-    height: 25vh;
-    width: 370vh;
+    width: 690px;
+    height: 60px;
     background-color: LightSlateGrey;
     border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
 }
 .working h1 {
     color: LightCoral;
-    font-size: 3em;
-    margin: 0.15em;
+    font-size: 32px;
+    margin: 0;
 }
 .footer {
     background-color: MidnightBlue;
     color: White;
     text-align: center;
-    padding: 0.20rem;
+    padding: 49x;
     position: fixed;
     bottom: 0;
     width: 100%;
