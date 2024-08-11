@@ -96,6 +96,7 @@ h1 {
     margin: 10px 0 10px 15px;
     background-color: MidnightBlue;
     border-radius: 20px;
+    height: 200px;
 }
 .intro-text {
     flex: 1;
@@ -103,13 +104,16 @@ h1 {
     min-width: 750px;
 }
 .intro-picture {
-    flex: 1;
+    flex: 0 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 200px;
 }
 .intro-picture img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     border-radius: 50%;
 }
 .working {
