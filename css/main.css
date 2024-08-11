@@ -6,6 +6,15 @@ body, html {
     overflow: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    background: url('img/Background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+section {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.section-visible {
+    opacity: 1;
 }
 ::-webkit-scrollbar {
     width: 0px;
