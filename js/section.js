@@ -4,11 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function activateSection(sectionId) {
         sections.forEach(section => {
             if (section.id === sectionId) {
-                section.classList.add('visible');
-                section.classList.remove('active');
-            } else {
-                section.classList.remove('visible');
                 section.classList.add('active');
+            } else {
+                section.classList.remove('active');
             }
         });
     }
@@ -16,7 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function(event) {
             event.preventDefault();
             const targetSectionId = this.getAttribute('href').substring(1);
-            activateSection(targetSectionId);
+            const targetSection = document.getElementById(targetSectionId);
+            if (targetSection) {
+                activateSection(targetSectionId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+    window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY + window.innerHeight / 2;
+        sections.forEach(section => {
+            if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
+                activateSection(section.id);
+            }
         });
     });
     if (sections.length > 0) {
