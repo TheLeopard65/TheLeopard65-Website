@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     font-family: Comic Sans MS, cursive;
     background-color: MidnightBlue;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
     scrollbar-width: none;
     -ms-overflow-style: none;
     background: url('/img/Background.png') no-repeat center center fixed;
@@ -89,6 +89,18 @@ section.active {
     border-radius: 20px;
     height: 250px;
     width: 97%;
+    position: relative;
+}
+.intro-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    z-index: -1;
 }
 .intro-text {
     flex: 1;
