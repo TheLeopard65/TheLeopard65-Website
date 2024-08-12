@@ -11,7 +11,7 @@ body, html {
 }
 section {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 100%;
     width: 100%;
     height: 100vh;
@@ -19,10 +19,9 @@ section {
     transition: transform 1s ease-in-out, opacity 2s ease-in-out;
 }
 section.active {
-    transform: translateX(-100%);
+    top: 0;
 }
 section.visible {
-    transform: translateX(0);
     opacity: 1;
 }
 ::-webkit-scrollbar {
