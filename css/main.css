@@ -108,24 +108,6 @@ section.active {
     max-height: 100%;
     border-radius: 50%;
 }
-.working {
-    width: 690px;
-    height: 60px;
-    background-color: LightSlateGrey;
-    border-radius: 8px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    padding-bottom: 60px;
-}
-.working h1 {
-    color: LightCoral;
-    font-size: 32px;
-    margin: 0;
-}
 .footer {
     background-color: MidnightBlue;
     color: White;
