@@ -1,14 +1,37 @@
-#certifications {
+section {
     padding: 50px 20px;
-    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#certifications h2 {
+section h2 {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 30px;
+}
+#projects {
+    background-color: #f0f8ff;
+    background-image: url('/img/projects-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#certifications {
+    background-color: #f4f4f4; /* Light gray */
+    background-image: url('/img/certifications-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#capture-the-flags {
+    background-color: #e6e6fa;
+    background-image: url('/img/capture-the-flags-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#social-media {
+    background-color: #fffaf0;
+    background-image: url('/img/social-media-background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .certificates-container {
     display: flex;
