@@ -1,4 +1,8 @@
-html {
+body, html {
+    font-family: Comic Sans MS, cursive;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     scroll-behavior: smooth;
 }
 section {
