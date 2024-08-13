@@ -1,3 +1,8 @@
+.content-frame {
+    width: 100%;
+    height: calc(100vh - 70px);
+    border: none;
+}
 body, html {
     height: 100%;
     margin: 0;
