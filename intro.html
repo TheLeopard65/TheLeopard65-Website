@@ -4,70 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY INTRODUCTION</title>
+    <style>
+        h2 {
+            font-family: Comic Sans MS, cursive;
+            font-size: 36px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        body, html {
+            font-family: Comic Sans MS, cursive;
+            overflow-x: hidden;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            scroll-behavior: smooth;
+        }
+        .intro-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin: 80px auto 10px auto;
+            border-radius: 20px;
+            width: 90%;
+            position: relative;
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+        .intro-text {
+            font-size: 20px;
+            padding: 10px;
+            margin: 0;
+        }
+        .intro-picture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 300px;
+            margin: 0;
+            padding: 0;
+        }
+        .intro-picture img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+        .achievements-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(128, 128, 128, 0.5);
+            padding: 10px;
+            margin: 20px auto 10px auto;
+            border-radius: 20px;
+            width: 90%;
+        }
+        .achievements-container h2 {
+            width: 100%;
+            text-align: center;
+            margin: 0 0 10px 0;
+        }
+        .achievements-container img {
+            width: 300px;
+            height: auto;
+            align-items: center;
+            margin: 0 5px;
+        }
+    </style>
 </head>
-<style>
-    h2 {
-        font-family: Comic Sans MS, cursive;
-        font-size: 36px;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    body, html {
-        font-family: Comic Sans MS, cursive;
-        overflow-x: hidden;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        scroll-behavior: smooth;
-    }
-    .intro-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 5px;
-        margin: 50px auto;
-        border-radius: 20px;
-        width: 90%;
-        position: relative;
-        background-color: rgba(128, 128, 128, 0.5);
-    }
-    .intro-text {
-        font-size: 20px;
-        padding: 10px;
-        margin: 0;
-    }
-    .intro-picture {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 300px;
-        margin: 0;
-        padding: 0;
-    }
-    .intro-picture img {
-        max-width: 100%;
-        max-height: 100%;
-        border-radius: 50%;
-        margin-right: 30px;
-    }
-    .achievements-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        background-color: rgba(128, 128, 128, 0.5);
-        padding: 20px;
-        margin: 30px auto;
-        border-radius: 20px;
-        width: 90%;
-    }
-    .achievements-container img {
-        width: 300px;
-        height: auto;
-        align-items: center;
-        margin: 0 5px;
-    }
-</style>
 <body>
     <div class="intro-container">
         <div class="intro-text">
@@ -87,8 +91,8 @@
             <img src="img/Profile.jpg" alt="Yasir Mehmood">
         </div>
     </div>
-    <h2>ACHIEVEMENTS</h2>
     <div class="achievements-container">
+        <h2>ACHIEVEMENTS</h2>
         <img src="https://www.hackthebox.com/badge/image/1998521" alt="HTB Badge">
         <img src="https://tryhackme-badges.s3.amazonaws.com/Leopard65.png" alt="THM Badge">
     </div>
