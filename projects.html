@@ -1,1 +1,117 @@
-<h2>Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROJECTS</title>
+    <style>
+        body, html {
+            font-family: Comic Sans MS, cursive;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            scroll-behavior: smooth;
+        }
+        h2 {
+            font-family: Comic Sans MS, cursive;
+            font-size: 36px;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            width: 100%;
+            margin: -20px auto -30px auto;
+        }
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(128, 128, 128, 0.65);
+            padding: 20px;
+            margin: 100px auto 10px auto;
+            border-radius: 20px;
+            width: 90%;
+            gap: 30px;
+        }
+        .projects-card {
+            background-color: Gold;
+            border-radius: 20px;
+            box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            width: 380px;
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+            padding: 20px;
+        }
+        .projects-card:hover {
+            transform: scale(1.05);
+        }
+        .projects-card-content h3 {
+            font-size: 24px;
+            color: Black;
+            margin: 5px 0;
+        }
+        .projects-card-content p {
+            font-size: 16px;
+            color: Gray;
+            margin: 10px 0;
+        }
+        .projects-card-content a {
+            display: inline-block;
+            font-size: 15px;
+            color: blue;
+            text-decoration: none;
+        }
+        .projects-card-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="projects-container">
+    <h2>MY PROJECTS</h2>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>FIXER BOTNET</h3>
+                <p>Fixer Botnet is a lightweight Python-based botnet framework designed for educational purposes. With a focus on simplicity and ease of use, it provides a foundation for understanding how botnets operate and can be used to experiment with basic botnet functionality in a controlled environment.</p>
+                <a href="https://github.com/TheLeopard65/Fixer-Botnet" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>DOS GUARD</h3>
+                <p>This is a Test tool i made for a DDOS Detector. It captures packets and shows them on a web application interface. It was a part of my 2ND SEMESTER Object Oriented Project "FIXER BOTNET"</p>
+                <a href="https://github.com/TheLeopard65/Dos-Guard" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>SSH HONEYPOT</h3>
+                <p>This Python code sets up a basic honeypot using Flask and Paramiko. It logs SSH and web login attempts, providing insights into potential security threats. The code is an educational example, demonstrating how to detect and log unauthorized access for learning cybersecurity concepts.</p>
+                <a href="https://github.com/TheLeopard65/SSH-Honeypot" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>FIX FLOODER</h3>
+                <p>These are a couple of DDOS Attack methods That i created in order to Test my Fixer Botnet. It was a part of my 2ND SEMESTER Object Oriented Project "FIXER BOTNET"</p>
+                <a href="https://github.com/TheLeopard65/Fix-Flooder" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>WSL2 SETUP</h3>
+                <p>This repository is made to automate the setup and Installation of various tools and applications within a Windows Subsystem for Linux (WSL2) environment. This script installs a comprehensive toolkit for security and penetration testing tasks.</p>
+                <a href="https://github.com/TheLeopard65/WSL2-setup" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+        <div class="projects-card">
+            <div class="projects-card-content">
+                <h3>SIMPLE PORT SCANNER</h3>
+                <p>This is a simple Python script designed to perform a TCP port scan on a specified target. It uses the socket module to establish connections with each port and reports whether each port is open or closed. The script also includes error handling for common exceptions such as host resolution failures and connection errors.</p>
+                <a href="https://github.com/TheLeopard65/Port-Scanner" target="_blank">VIEW THE GITHUB REPOSITORY</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
