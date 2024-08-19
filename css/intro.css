@@ -13,7 +13,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    margin: 85px auto 30px auto;
+    margin: 85px auto 20px auto;
     border-radius: 20px;
     width: 90%;
     position: relative;
@@ -45,7 +45,7 @@ h2 {
     justify-content: center;
     background-color: rgba(128, 128, 128, 0.65);
     padding: 10px;
-    margin: 30px auto 10px auto;
+    margin: 20px auto;
     border-radius: 20px;
     width: 90%;
 }
