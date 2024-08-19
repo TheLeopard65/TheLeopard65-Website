@@ -1,12 +1,12 @@
+body, html {
+    font-family: Comic Sans MS, cursive;
+    overflow-x: hidden;
+}
 h2 {
     font-family: Comic Sans MS, cursive;
     font-size: 36px;
     text-align: center;
     margin: 0 auto;
-}
-body, html {
-    font-family: Comic Sans MS, cursive;
-    overflow-x: hidden;
 }
 .intro-container {
     display: flex;
