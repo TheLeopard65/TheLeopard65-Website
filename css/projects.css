@@ -1,8 +1,6 @@
 body, html {
     font-family: Comic Sans MS, cursive;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 h2 {
     font-family: Comic Sans MS, cursive;
