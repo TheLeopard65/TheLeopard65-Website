@@ -8,6 +8,9 @@ body, html {
     width: 0px;
     height: 0px;
 }
+section {
+    scroll-margin-top: 90px;
+}
 .background-layer {
     position: fixed;
     top: 0;
