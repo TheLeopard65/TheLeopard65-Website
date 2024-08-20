@@ -1,0 +1,49 @@
+body, html {
+    font-family: Comic Sans MS, cursive;
+    overflow-x: hidden;
+}
+h2 {
+    font-family: Comic Sans MS, cursive;
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    margin: -15px auto 20px auto;
+    width: 100%;
+}
+.social-media-section {
+    background-color: rgba(128, 128, 128, 0.65);
+    padding: 40px;
+    margin: 90px auto 40px auto;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.social-icon {
+    text-decoration: none;
+    color: White;
+    padding: 15px 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    transition: background 0.3s, color 0.3s;
+    font-size: 20px;
+}
+.social-icon i {
+    align-items: center;
+}
+.social-icon:hover {
+    background: Red;
+    color: White;
+}
+.twitter {    background: GoldenRod;  }
+.linkedin {    background: DarkSlateBlue;     }
+.github {    background: DimGray;      }
+.email {    background: FireBrick;    }
