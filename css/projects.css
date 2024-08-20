@@ -2,15 +2,6 @@ body, html {
     font-family: Comic Sans MS, cursive;
     overflow-x: hidden;
 }
-h2 {
-    font-family: Comic Sans MS, cursive;
-    font-size: 36px;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-    width: 100%;
-    margin: -20px auto -30px auto;
-}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +12,15 @@ h2 {
     border-radius: 20px;
     width: 90%;
     gap: 30px;
+}
+.projects-container h2 {
+    font-family: Comic Sans MS, cursive;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    margin: -20px auto -30px auto;
 }
 .projects-card {
     background-color: Gold;
