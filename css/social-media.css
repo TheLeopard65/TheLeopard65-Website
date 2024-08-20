@@ -4,7 +4,7 @@ body, html {
 }
 h2 {
     font-family: Comic Sans MS, cursive;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     padding: 0;
     margin: -15px auto 20px auto;
@@ -17,6 +17,7 @@ h2 {
     border-radius: 20px;
     width: 90%;
     text-align: center;
+    padding: 20px;
 }
 .social-icons {
     display: flex;
@@ -43,8 +44,8 @@ h2 {
     background: Red;
     color: White;
 }
-.twitter {    background: GoldenRod;  }
-.linkedin {    background: DarkSlateBlue;     }
-.github {    background: DarkSlateGray;      }
-.email {    background: FireBrick;    }
-.instagram {    background: RoyalePurple;    }
+.twitter {    background: #1DA1F2;  }
+.linkedin {    background: #0e76a8;     }
+.github {    background: #2B3137;      }
+.email {    background: #F2A60C;    }
+.instagram {    background: #ee2a7b;    }
