@@ -2,12 +2,6 @@ body, html {
     font-family: Comic Sans MS, cursive;
     overflow-x: hidden;
 }
-h2 {
-    font-family: Comic Sans MS, cursive;
-    font-size: 36px;
-    text-align: center;
-    margin: 0 auto;
-}
 .intro-container {
     display: flex;
     justify-content: space-between;
@@ -18,6 +12,12 @@ h2 {
     width: 90%;
     position: relative;
     background-color: rgba(128, 128, 128, 0.65);
+}
+.intro-container h2 {
+    font-family: Comic Sans MS, cursive;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
 }
 .intro-text {
     font-size: 21px;
