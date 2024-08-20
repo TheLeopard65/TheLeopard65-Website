@@ -2,14 +2,6 @@ body, html {
     font-family: Comic Sans MS, cursive;
     overflow-x: hidden;
 }
-h2 {
-    font-family: Comic Sans MS, cursive;
-    font-size: 36px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
 .certificates-container {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +12,14 @@ h2 {
     border-radius: 20px;
     width: 90%;
     gap: 30px;
+}
+.certificates-container h2 {
+    font-family: Comic Sans MS, cursive;
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 .certificate-card {
     background-color: Gold;
