@@ -34,6 +34,7 @@
     border-radius: 30px;
     height: 30px;
     width: 100%;
+    max-width: 450px;
     margin: 10px;
     overflow: hidden;
     position: relative;
@@ -48,6 +49,7 @@
     padding-right: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     position: relative;
+    width: 0;
 }
 .progress span {
     position: absolute;
