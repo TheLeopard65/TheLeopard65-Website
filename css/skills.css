@@ -12,7 +12,7 @@
 .skills-container h2 {
     font-family: Comic Sans MS, cursive;
     font-size: 36px;
-    margin: 0 0 20px 0;
+    margin: 0;
     grid-column: 1 / -1;
 }
 .skill {
@@ -34,8 +34,8 @@
     border-radius: 30px;
     height: 30px;
     width: 100%;
-    max-width: 450px;
-    margin: 10px;
+    max-width: 420px;
+    margin: 5px;
     overflow: hidden;
     position: relative;
 }
