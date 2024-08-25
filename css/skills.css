@@ -1,7 +1,7 @@
 .skills-container {
     background-color: rgba(128, 128, 128, 0.65);
     padding: 20px;
-    margin: 90px auto 10px auto;
+    margin: 92px auto 10px auto;
     border-radius: 20px;
     width: 90%;
     text-align: center;
@@ -13,7 +13,7 @@
     margin: 0;
 }
 .skill {
-    margin: 10px 0;
+    margin: 8px 0;
 }
 .skill-info {
     display: flex;
