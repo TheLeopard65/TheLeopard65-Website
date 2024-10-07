@@ -1,0 +1,55 @@
+body, html {
+    font-family: Comic Sans MS, cursive;
+    overflow-x: hidden;
+}
+.blog-container {
+    background-color: rgba(128, 128, 128, 0.65);
+    padding: 20px;
+    margin: 90px auto 10px auto;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+}
+.blog-container h2 {
+    font-family: Comic Sans MS, cursive;
+    font-size: 36px;
+    margin: 0;
+}
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.blog-card {
+    background-color: Gold;
+    border-radius: 20px;
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 380px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    padding: 18px;
+}
+.blog-card:hover {
+    transform: scale(1.05);
+}
+.blog-card h3 {
+    font-size: 24px;
+    color: Black;
+    margin: 10px 0;
+}
+.blog-card p {
+    font-size: 15px;
+    color: Gray;
+    margin: 5px 0;
+}
+.blog-card a {
+    display: inline-block;
+    font-size: 15px;
+    color: Blue;
+    text-decoration: none;
+}
+.blog-card a:hover {
+    text-decoration: underline;
+}
