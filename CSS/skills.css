@@ -9,51 +9,39 @@
 }
 .skills-container h2 {
     font-family: Comic Sans MS, cursive;
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
+    margin-bottom: 20px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0 10px 0;
 }
 .skill {
-    margin: 8px 0;
+    background-color: lightgray;
+    padding: 10px;
+    border: 3px solid gold;
+    border-radius: 15px;
+    text-align: center;
+    width: 175px;
+    height: 120px;
+    flex: auto;
 }
-.skill-info {
+.skill-logo-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 10px;
 }
-.skill-info h3 {
-    font-size: 24px;
-    color: Black;
+.skill-logo {
+    width: 100px;
+    height: auto;
+}
+.skill h3 {
+    font-size: 16px;
+    color: black;
     margin: 0;
-    flex: 1;
-}
-.progress-bar {
-    background-color: White;
-    border-radius: 30px;
-    height: 30px;
-    width: 100%;
-    max-width: 1100px;
-    margin: 8px auto;
-    overflow: hidden;
-    position: relative;
-}
-.progress {
-    background-color: #76c7c0;
-    height: 100%;
-    border-radius: 30px;
-    text-align: right;
-    line-height: 30px;
-    color: white;
-    padding-right: 10px;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: 0;
-}
-.progress span {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-    color: White;
+    font-family: Arial, sans-serif;
 }
