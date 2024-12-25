@@ -6,6 +6,15 @@ body, html {
     margin: 0;
     padding: 0;
 }
+h1 {
+	font-family: Comic Sans MS, cursive;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 10px 0;
+	font-size: 36px;
+    color: #00FF00;
+    text-shadow: 0 0 15px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 0.75), 0 0 45px rgba(0, 255, 0, 0.5);
+}
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
