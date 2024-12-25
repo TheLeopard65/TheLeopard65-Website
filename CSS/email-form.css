@@ -1,0 +1,55 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+button, input, textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+.email-form {
+  display: grid;
+  row-gap: 5px;
+}
+.email-field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.email-button {
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 26px;
+  font-weight: 800;
+  width: 350px;
+  line-height: 18px;
+  padding: 15px 20px;
+  transition-duration: 100ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.email-button:hover {
+  background-color: DarkGreen;
+  outline: 3px solid gold;
+}
+.email-input, .email-textarea {
+  appearance: none;
+  border-radius: 10px;
+  border-width: 3px;
+  color: black;
+  font-size: 18px;
+  line-height: 20x;
+  outline: none;
+  padding: 8px 8px;
+}
+.email-textarea { resize: vertical; }
