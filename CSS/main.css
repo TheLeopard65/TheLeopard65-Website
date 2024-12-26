@@ -13,13 +13,15 @@ h1 {
 	margin: 0 0 10px 0;
 	font-size: 36px;
     color: #00FF00;
-    text-shadow: 0 0 15px rgba(0, 255, 0, 1), 0 0 30px rgba(0, 255, 0, 0.75), 0 0 45px rgba(0, 255, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 255, 0, 1), 0 0 20px rgba(0, 255, 0, 0.75), 0 0 30px rgba(0, 255, 0, 0.5);
 }
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
-section { scroll-margin-top: 90px; }
+section {
+	scroll-margin-top: 90px;
+}
 canvas#MATRIXCANVAS {
     position: fixed;
     top: 0;
@@ -34,16 +36,16 @@ canvas#MATRIXCANVAS {
     left: 50%;
     transform: translateX(-50%);
     height: 35px;
-    width: 1030px;
-    margin: 25px 0 0 0;
+    width: 805px;
+    margin: 23px 0 0 0;
     font-family: Comic Sans MS, cursive;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.2rem;
+    padding: 3px;
     background-color: Black;
     border-radius: 20px;
-    box-shadow: 0 0 0 5px DarkBlue;
+    box-shadow: 0 0 0 5px Darkgreen;
     z-index: 1000;
 }
 .navbar-logo {
@@ -52,11 +54,11 @@ canvas#MATRIXCANVAS {
     justify-content: center;
     width: 65px;
     height: 65px;
-    margin: 0 10px;
+    margin: 0 7px;
     border-radius: 50%;
-    border: 5px solid Gold;
-    background-color: MidnightBlue;
-    overflow: hidden;
+    border: 3px solid Gold;
+    background-color: Green;
+    overflow: visible;
 }
 .navbar-logo img {
     height: 100%;
@@ -65,13 +67,13 @@ canvas#MATRIXCANVAS {
 .navbar-links {
     display: flex;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 5px;
     flex: 1;
 }
 .navbar-link {
     color: #F5FFFA;
     font-size: 18px;
-    padding: 0.25rem 0.85rem;
+    padding: 3px 10px;
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -84,7 +86,7 @@ canvas#MATRIXCANVAS {
     border-radius: 20px;
 }
 .footer {
-    background-color: MidnightBlue;
+    background-color: Green;
     color: White;
     text-align: center;
     padding: 5px;
@@ -97,4 +99,6 @@ canvas#MATRIXCANVAS {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-.navbar { animation: fadeIn 1s ease-out; }
+.navbar {
+	animation: fadeIn 1s ease-out;
+}

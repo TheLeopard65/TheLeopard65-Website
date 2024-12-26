@@ -13,22 +13,15 @@ body, html {
     width: 90%;
     gap: 30px;
 }
-.certificates-container h2 {
-    font-family: Comic Sans MS, cursive;
-    font-size: 36px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
 .certificate-card {
     background-color: Gold;
     border-radius: 20px;
-    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
+    border: 5px solid Gold;
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     width: 435px;
     height: 500;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     position: relative;
     text-align: center;
 }
@@ -55,7 +48,7 @@ body, html {
 }
 .certificate-card-content a {
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
     color: blue;
     text-decoration: none;
 }

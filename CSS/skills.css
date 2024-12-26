@@ -6,6 +6,7 @@
     width: 90%;
     text-align: center;
     display: block;
+    overflow: visible;
 }
 .skills-container h2 {
     font-family: Comic Sans MS, cursive;
@@ -17,18 +18,23 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 25px;
+    justify-content: center;
     margin: 20px 0 10px 0;
+    gap: 25px;
 }
 .skill {
     background-color: lightgray;
     padding: 10px;
-    border: 3px solid gold;
+    border: 5px solid gold;
     border-radius: 15px;
     text-align: center;
-    width: 175px;
-    height: 120px;
+    min-width: 150px;
+    min-height: 100px;
     flex: auto;
+    transition: transform 0.1s ease-in-out;
+}
+.skill:hover {
+	transform: scale(1.1);
 }
 .skill-logo-container {
     display: flex;
@@ -36,12 +42,12 @@
     margin-bottom: 10px;
 }
 .skill-logo {
-    width: 100px;
+    width: 85px;
     height: auto;
 }
 .skill h3 {
     font-size: 16px;
     color: black;
-    margin: 0;
+    margin: 5px 0;
     font-family: Arial, sans-serif;
 }

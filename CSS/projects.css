@@ -23,8 +23,9 @@ body, html {
     margin: -20px auto -30px auto;
 }
 .projects-card {
-    background-color: Gold;
+    background-color: DarkGray;
     border-radius: 20px;
+    border: 5px solid Gold;
     box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     width: 380px;
@@ -36,13 +37,14 @@ body, html {
     transform: scale(1.05);
 }
 .projects-card-content h3 {
+	font-family: Comic Sans MS, cursive;
     font-size: 24px;
-    color: Black;
+    color: Gold;
     margin: 10px 0;
 }
 .projects-card-content p {
-    font-size: 15px;
-    color: Gray;
+    font-size: 16px;
+    color: Black;
     margin: 5px 0;
 }
 .projects-card-content a {
