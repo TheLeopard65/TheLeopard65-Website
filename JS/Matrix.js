@@ -12,7 +12,7 @@ function updateMatrix() {                          // Update the matrix animatio
   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";           // Set the background color
   ctx.fillRect(0, 0, canvasWidth, canvasHeight);   // Set the background to entire canvas
   ctx.fillStyle = "green";                         // Set the text color and font
-  ctx.font = "12px timesnewroman";                 // Set the Fond style and size
+  ctx.font = "13px couriernew";                 // Set the Fond style and size
   for (let i = 0; i < columns; i++) {              // Loop through each column
     const character = characters[Math.floor(Math.random() * characters.length)]; // Select a random character from the array
     const y = yPositions[i];                       // Set the y position of the current column

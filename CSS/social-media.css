@@ -1,11 +1,12 @@
 body, html {
+	-webkit-font-smoothing: antialiased;
     font-family: Comic Sans MS, cursive;
     overflow-x: hidden;
 }
 .social-media-section {
     background-color: rgba(128, 128, 128, 0.35);
     padding: 40px;
-    margin: 20px auto 40px auto;
+    margin: 90px auto 40px auto;
     border-radius: 20px;
     width: 90%;
     text-align: center;
@@ -34,60 +35,85 @@ body, html {
     align-items: center;
     justify-content: center;
     width: 250px;
-    transition: background 0.3s, color 0.3s;
     font-size: 20px;
 }
 .social-icon i {
     align-items: center;
 }
 .social-icon:hover {
-    background: Red;
-    color: White;
+    background-color: Gold;
+    outline: 4px solid Green;
+    color: Green;
 }
-#contact {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-    text-align: center;
-}
-.contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.contact-container h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-form label {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-form input, form textarea {
-    font-size: 16px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-form button {
-    font-size: 18px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-form button:hover { background-color: #0056b3; }
-.twitter {    background: #1DA1F2;  }
-.linkedin {    background: #0e76a8;     }
-.github {    background: #2B3137;      }
+.twitter {    background: Black;  }
+.linkedin {    background: #0077B5;     }
+.github {    background: #24292E;      }
 .email {    background: #F2A60C;    }
-.instagram {    background: #ee2a7b;    }
+.instagram {    background: #EE2A7B;    }
+.discord {    background: #5865F2;    }
+
+.email-form button, .email-form input, .email-form textarea {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+}
+.email-form {
+  display: grid;
+  padding: 10px 0;
+}
+.email-field {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: 15px;
+  border: 3px solid Gold;
+  padding: 10px;
+  margin: 10px 10px;
+  max-width: 700px;
+}
+.email-field h2 {
+	font-size: 24px;
+	color: Gold;
+	text-align: center;
+	width: 100%;
+	margin: 5px auto 10px auto;
+}
+.email-button {
+  background-color: Green;
+  border-radius: 10px;
+  color: White;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 800;
+  width: 350px;
+  line-height: 18px;
+  min-height: 40px;
+  padding: 10px 10px;
+  transition-duration: 100ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.email-button:hover {
+  background-color: DarkGreen;
+  outline: 4px solid Gold;
+  color: Gold;
+}
+.email-input, .email-textarea {
+  appearance: none;
+  border-radius: 7px;
+  border: 2px solid Gold;
+  color: Black;
+  font-size: 18px;
+  line-height: 30px;
+  min-height: 35px;
+  padding: 3px 6px;
+}
+.email-textarea {
+	resize: vertical;
+	min-height: 157px;
+}
