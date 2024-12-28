@@ -30,6 +30,10 @@ section.visible {
 	opacity: 1;
 	transform: translateY(0);
 }
+#home {
+  opacity: 1;
+  transform: translateY(0);
+}
 canvas#MATRIXCANVAS {
     position: fixed;
     top: 0;
