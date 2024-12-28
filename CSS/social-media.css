@@ -52,6 +52,12 @@ body, html {
 .instagram {    background: #EE2A7B;    }
 .discord {    background: #5865F2;    }
 
+.side-by-side {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 10px;
+}
 .email-form button, .email-form input, .email-form textarea {
   font-family: inherit;
   font-feature-settings: inherit;
@@ -63,6 +69,8 @@ body, html {
   margin: 0;
 }
 .email-form {
+  flex: 1;
+  max-width: 700px;
   display: grid;
   padding: 10px 0;
 }
@@ -74,10 +82,10 @@ body, html {
   border: 3px solid Gold;
   padding: 10px;
   margin: 10px 10px;
-  max-width: 700px;
+  background-color: rgba(128, 128, 128, 0.65);
 }
 .email-field h2 {
-	font-size: 24px;
+	font-size: 28px;
 	color: Gold;
 	text-align: center;
 	width: 100%;
@@ -115,5 +123,32 @@ body, html {
 }
 .email-textarea {
 	resize: vertical;
-	min-height: 157px;
+	min-height: 150px;
+}
+.contact {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  flex: 1;
+  max-width: 750px;
+  padding: 10px 0;
+  margin: 20px 10px;
+  background-color: rgba(128, 128, 128, 0.65);
+  border: 3px solid Gold;
+  border-radius: 15px;
+}
+.contact h2 {
+	font-size: 28px;
+	color: Gold;
+	text-align: center;
+	margin: 5px auto 10px auto;
+}
+.contact p {
+	font-size: 22px;
+	margin: 23.25px auto;
 }

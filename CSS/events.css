@@ -22,13 +22,15 @@
     border-radius: 20px;
     box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
     overflow: hidden;
-    width: 380px;
-    transition: transform 0.3s ease-in-out;
+    width: 370px;
+    margin: -20px 0 0 0;
+    transition: transform 0.15s ease-in-out;
     text-align: center;
     text-decoration: none;
 }
 .event-card:hover {
     transform: scale(1.05);
+    outline: 4px solid Green;
 }
 .event-card a {
     display: block;
@@ -45,7 +47,7 @@
     margin: 10px 0;
 }
 .event-card-content p {
-    font-size: 18px;
+    font-size: 20px;
     color: Gray;
     margin: 5px 0;
 }
