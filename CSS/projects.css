@@ -56,3 +56,11 @@ body, html {
 .projects-card-content a:hover {
     text-decoration: underline;
 }
+@media screen and (max-width: 600px) {
+	.projects-container {
+		margin: 20px auto 10px auto;
+	}
+	.projects-card {
+		max-width: 450px;
+	}
+}

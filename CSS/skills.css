@@ -100,3 +100,12 @@
 .event-card-content {
     padding: 2px;
 }
+@media screen and (max-width: 600px) {
+	.skills-container {
+	        margin: 20px auto 10px auto;
+	}
+	.skill {
+		min-width: 100px;
+		min-height: 50px
+	}
+}

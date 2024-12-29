@@ -107,3 +107,26 @@ body, html {
 .achievements-container img:hover {
     transform: scale(1.05);
 }
+@media screen and (max-width: 600px) {
+    .intro-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 10px;
+        width: 93.5%;
+    }
+    .intro-container h2 { font-size: 23px; }
+    .intro-text { font-size: 13px; }
+    .intro-text .whoami { font-size: 23px; }
+    .glowing-circle { display: none; }
+    .achievements-container {
+        flex-direction: column;
+        align-items: center;
+        width: 93.5%;
+        padding: 10px;
+    }
+    .achievements-container img {
+        width: 85%;
+        margin: 5px 0;
+    }
+}

@@ -48,11 +48,12 @@ canvas#MATRIXCANVAS {
     left: 50%;
     transform: translateX(-50%);
     height: 35px;
-    width: 593px;
+    width: 95%;
+    max-width: 593px;
     margin: 23px 0 0 0;
     font-family: Comic Sans MS, cursive;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 3px;
     background-color: Black;
@@ -79,6 +80,8 @@ canvas#MATRIXCANVAS {
 .navbar-links {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
     margin: 0 5px;
     flex: 1;
 }
@@ -113,4 +116,9 @@ canvas#MATRIXCANVAS {
 }
 .navbar {
 	animation: fadeIn 1s ease-out;
+}
+@media only screen and (max-width: 600px) {
+	.navbar { display: none; }
+    .navbar-links { display: none; }
+    .intro-picture img { display: none; }
 }

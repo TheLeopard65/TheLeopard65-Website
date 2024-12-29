@@ -19,8 +19,8 @@ body, html {
     border: 5px solid Gold;
     box-shadow: 0 15px 5px rgba(0, 0, 0, 0.25);
     overflow: hidden;
-    width: 435px;
-    height: 500;
+    max-width: 435px;
+    max-height: 500;
     transition: transform 0.2s ease-in-out;
     position: relative;
     text-align: center;
@@ -54,4 +54,14 @@ body, html {
 }
 .certificate-card-content a:hover {
     text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+	.certificates-container {
+		margin: 20px auto 10px auto;
+		width: 90%;
+	}
+	.certificate-card img {
+		width: 100%;
+		height: 65%;
+	}
 }
