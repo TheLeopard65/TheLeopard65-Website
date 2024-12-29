@@ -122,3 +122,24 @@ canvas#MATRIXCANVAS {
     .navbar-links { display: none; }
     .intro-picture img { display: none; }
 }
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .navbar {
+        width: 96%;
+        max-width: 750px;
+        margin: 20px 0;
+    }
+    .navbar-logo {
+        width: 50px;
+        height: 50px;
+    }
+    .navbar-links {
+        font-size: 16px;
+    }
+    .intro-text {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .achievements-container h1 {
+        font-size: 28px;
+    }
+}

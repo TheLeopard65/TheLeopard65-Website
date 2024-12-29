@@ -196,3 +196,107 @@ body, html {
     	font-size: 22px;
     }
 }
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+	.social-media-section {
+		margin: 90px auto 40px auto;
+		padding: 10px;
+		width: 93.5%;
+	}
+	.side-by-side {
+		flex-direction: column;
+		align-items: center;
+	}
+	.social-icons {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+    }
+    .social-icon {
+        width: 35%;
+        font-size: 18px;
+        padding: 8px 20px;
+        margin: 3px 0;
+    }
+	.email-form {
+    	margin: -15px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .email-input, .email-textarea, .email-button {
+        width: 97.5%;
+        font-size: 16px;
+    }
+    .contact {
+        width: 93.5%;
+        padding: 15px;
+    }
+    .contact h2 {
+    	font-size: 20px;
+    }
+    .contact p {
+    	font-size: 16px;
+    	margin: 5px auto;
+    }
+    .email-field h2 {
+    	font-size: 22px;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 1235px) {
+	.social-media-section {
+		margin: 90px auto 40px auto;
+		padding: 10px;
+		width: 93.5%;
+	}
+    .social-icons {
+        flex-direction: wrap;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+    .social-icon {
+        width: 30%;
+        font-size: 18px;
+    }
+    .side-by-side {
+        flex-direction: wrap;
+        align-items: center;
+    }
+    .email-form {
+    	margin: -15px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .email-input, .email-textarea, .email-button {
+        width: 95%;
+        font-size: 16px;
+    }
+    .contact {
+        width: 90%;
+        padding: 15px;
+    }
+    .contact h2 {
+    	font-size: 24px;
+    }
+    .contact p {
+    	font-size: 18px;
+    	margin: 10.5px auto;
+    }
+    .email-field h2 {
+    	font-size: 20px;
+    	margin: 2px auto 0 auto;
+    }
+    .email-text-area {
+    	min-height: 40px;
+    }
+}
+@media only screen and (min-width: 994px) and (max-width: 1011px) {
+	.contact p {
+		margin: 16px 0;
+	}
+}
+@media only screen and (min-width: 1011px) and (max-width: 1235px) {
+	.contact p {
+		margin: 21px 0;
+	}
+}
