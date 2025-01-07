@@ -59,7 +59,7 @@ body, html {
 	gap: 10px;
 }
 .email-form button, .email-form input, .email-form textarea {
-  font-family: inherit;
+  font-family: "Roboto", serif;
   font-feature-settings: inherit;
   font-variation-settings: inherit;
   font-size: 100%;
@@ -116,7 +116,6 @@ body, html {
   border-radius: 7px;
   border: 2px solid Gold;
   color: Black;
-  font-family: "Roboto", serif;
   font-size: 18px;
   line-height: 30px;
   min-height: 35px;

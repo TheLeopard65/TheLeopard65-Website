@@ -62,11 +62,10 @@
     gap: 30px;
 }
 .events-container h2 {
-    font-family: "Roboto", serif;
     font-size: 30px;
     text-align: center;
     padding: 0;
-    margin: -5px 0 0 0;
+    margin: -2px 0 5px 0;
     width: 100%;
 }
 .events-container a {
@@ -75,6 +74,7 @@
 }
 .event-card {
     background-color: Gold;
+    font-family: "Roboto", serif;
     border-radius: 15px;
     box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
     overflow: hidden;
