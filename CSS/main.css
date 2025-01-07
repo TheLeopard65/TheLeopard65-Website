@@ -1,5 +1,5 @@
 body, html {
-    font-family: "Roboto", serif;
+    font-family: "Comic Sans MS", cursive;
     overflow-x: hidden;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -8,7 +8,7 @@ body, html {
     padding: 0;
 }
 h1 {
-	font-family: "Roboto", serif;
+    font-family: "Comic Sans MS", cursive;
 	width: 100%;
 	text-align: center;
 	margin: 0 0 10px 0;
@@ -51,7 +51,7 @@ canvas#MATRIXCANVAS {
     width: 95%;
     max-width: 593px;
     margin: 23px 0 0 0;
-    font-family: "Roboto", serif;
+	font-family: "Comic Sans MS", cursive;
     display: flex;
     justify-content: space-between;
     align-items: center;
