@@ -116,6 +116,7 @@ body, html {
   border-radius: 7px;
   border: 2px solid Gold;
   color: Black;
+  font-family: "Roboto", serif;
   font-size: 18px;
   line-height: 30px;
   min-height: 35px;
@@ -149,6 +150,7 @@ body, html {
 	margin: 5px auto 10px auto;
 }
 .contact p {
+    font-family: "Roboto", serif;
 	font-size: 22px;
 	margin: 23.25px auto;
 }
