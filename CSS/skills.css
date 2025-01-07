@@ -96,8 +96,11 @@
 	underline: none;
 	text-shadow: none;
 }
+.event-card p {
+	padding: auto 10px;
+}
 .event-card-content {
-    padding: auto 5px;
+    padding: auto 10px;
 }
 @media screen and (max-width: 600px) {
 	.skills-container {
