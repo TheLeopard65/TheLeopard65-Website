@@ -98,10 +98,10 @@
 }
 .event-card p {
 	font-size: 15px;
-	padding 2px auto;
+	padding: 2px auto;
 }
 .event-card-content {
-    padding: 2px;
+    padding: 2px auto;
 }
 @media screen and (max-width: 600px) {
 	.skills-container {
