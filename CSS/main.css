@@ -122,7 +122,7 @@ canvas#MATRIXCANVAS {
     .navbar-links { display: none; }
     .intro-picture img { display: none; }
 }
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
     .navbar {
         width: 96%;
         max-width: 750px;
