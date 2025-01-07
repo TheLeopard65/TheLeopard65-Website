@@ -1,6 +1,6 @@
 body, html {
 	-webkit-font-smoothing: antialiased;
-    font-family: Comic Sans MS, cursive;
+    font-family: "Roboto", serif;
     overflow-x: hidden;
 }
 .social-media-section {
@@ -12,7 +12,7 @@ body, html {
     padding: 20px 20px 117px 20px;
 }
 .social-media-section h2 {
-    font-family: Comic Sans MS, cursive;
+    font-family: "Roboto", serif;
     font-size: 36px;
     text-align: center;
     padding: 0;
