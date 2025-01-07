@@ -96,6 +96,10 @@
 	underline: none;
 	text-shadow: none;
 }
+.event-card p {
+	font-size: 15px;
+	padding 2px auto;
+}
 .event-card-content {
     padding: 2px;
 }
